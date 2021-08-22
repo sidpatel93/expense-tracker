@@ -1,7 +1,7 @@
 import React from 'react'
 import './ExpenseDate.css';
 
-function ExpenseDate(props) {
+const ExpenseDate = (props) => {
 
     // date config object to store correct formated date from props.
     const dateConfig = {
